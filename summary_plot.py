@@ -259,8 +259,8 @@ def stix_comparison_summary_plot(start_day, end_day, path, start_time, end_time,
 	ax3.set_xlim([datetime.datetime(start_year, start_month, start_day, start_hour, start_minute, start_second), datetime.datetime(start_year, start_month, start_day, end_hour, end_minute, end_second)])
 	plt.ylim(freq.max(), freq.min())
 	plt.yscale('log')
-	My_FIGURE.savefig(path + "/STIX_PLOT.png") 
 	My_FIGURE.tight_layout()
+	My_FIGURE.savefig(path + "/STIX_PLOT.png") 
 
 
 start_day_sample = '2020-06-05'
