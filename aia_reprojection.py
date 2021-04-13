@@ -31,7 +31,7 @@ files = Fido.fetch(res)
 
 aia171  = sunpy.map.Map(files)
 
-# Using STIXCORE POISITION to coords of SOLAR ORBTER on 2020-10-01
+# Using STIXCORE POISITION to find coords of SOLAR ORBTER on 2020-10-01
 
 from pathlib import Path
 mkp = Path(stixcore.ephemeris.manager.__file__).parent.parent / 'data' / 'test' / 'ephemeris' / 'test_position_20201001_V01.mk'
